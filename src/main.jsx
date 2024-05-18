@@ -4,9 +4,13 @@ import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.bundle.js';
 import './index.scss';
 import App from './App.jsx';
+import { RecoilRoot } from 'recoil';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <App />
+  <RecoilRoot>
+    <App />
+
+  </RecoilRoot>
 )
 
 
